@@ -20,7 +20,7 @@ SELECT_SERVICE() {
   # Ensure the input is a number.
   if [[ ! $SERVICE_ID_SELECTED =~ ^[0-9]+$ ]]
   then
-    echo -e "Please insert a number."
+    echo -e "\nPlease insert a number."
     SELECT_SERVICE
   fi
 
